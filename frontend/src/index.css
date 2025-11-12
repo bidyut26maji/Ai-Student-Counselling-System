@@ -1,0 +1,107 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa; /* light soft background */
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Headings ===== */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+  transform: translateY(-2px);
+}
+
+/* ===== Textarea ===== */
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  transition: all 0.2s ease;
+  resize: vertical;
+}
+
+textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 10px rgba(74,144,226,0.2);
+}
+
+/* ===== Response Box ===== */
+.response-box {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: #edf2f7;
+  border-left: 4px solid #4a90e2;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+/* ===== Journal List ===== */
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+ul li:hover {
+  background-color: #f1f5f9;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
